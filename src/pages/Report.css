@@ -1,0 +1,102 @@
+.hero-section{
+    background-color: #86909f18;
+}
+
+.info{
+    color: black !important;
+}
+
+.row-one{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.row-two{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.title{
+    color: black;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input{
+    background-color: #4a505a11;
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    width: 350px;
+}
+
+.input-label{
+    color: #4A505A;
+    padding-top: 10px;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-report{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.report-submit-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+
+  background: linear-gradient(90deg, #6bb7bd, #8fd3d8);
+  color: #e6f7f8;
+
+  border: none;
+  border-radius: 30px;
+  padding: 6px 25px;
+
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.right a {
+  text-decoration: none;
+}
+
+.report-submit-btn .icon {
+  width: 32px;
+  height: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.report-submit-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.report-submit-btn .icon svg {
+  width: 25px;
+  height: 25px;
+}
