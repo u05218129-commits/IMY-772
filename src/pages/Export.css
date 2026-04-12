@@ -1,0 +1,36 @@
+.options{
+    display: flex;
+    flex-direction: column;
+    font-weight: 200;
+    gap: 20px;
+}
+
+.input-exp{
+    width: 16px;
+    margin-right: 10px;
+}
+
+.location-category-optional{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.separator{
+    background-color: black;
+    height: auto;
+    width: 1px;
+    opacity: 0.15;
+}
+
+.category-title{
+    padding: 0px;
+    font-weight: 600;
+}
+
+.dates-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-bottom: 20px;
+}
