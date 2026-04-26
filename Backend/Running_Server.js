@@ -1,8 +1,8 @@
 const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
-const { creatingUsersTable } = require('./models/Users');
-const { creatingAdminTables } = require('./models/AdminModel');
+const {creatingUsersTable} = require('./models/Users');
+const {creatingAdminTables} = require('./models/AdminModel');
 const authenticationRoutes = require('./routes/authenticationRoutes');
 const adminRoutes = require('./routes/adminRoutes');
 const reportRoutes = require('./routes/reportRoutes');
