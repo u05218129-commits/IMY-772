@@ -3,7 +3,6 @@ const pool = require('../config/database');
 //Creating the tables required for the admin tables.
 async function creatingAdminTables() {
   try {
-
     //Datasets for storing the data submitted on the dashboard
     await pool.query(`
       CREATE TABLE IF NOT EXISTS datasets (
@@ -17,7 +16,6 @@ async function creatingAdminTables() {
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
       );
     `);
-
     //Reports to store all the reports that are submitted.
     await pool.query(`
       CREATE TABLE IF NOT EXISTS reports (
@@ -51,4 +49,4 @@ async function creatingAdminTables() {
     console.error('Error creating the admin table', error);
   }
 }
-module.exports = { creatingAdminTables };
+module.exports = {creatingAdminTables };
