@@ -20,7 +20,7 @@ const submittingReport = async (req, res) => {
     }
     await pool.query(
       `INSERT INTO reports 
-        (name, email, organisation, case_description, case_title, 
+        (reporterName, email, organisation, case_description, case_title, 
          bacteria_type, antibiotic_resistance_type, location, date_of_case, status, is_verified) 
        VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)`,
       [
